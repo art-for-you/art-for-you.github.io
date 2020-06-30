@@ -1,0 +1,35 @@
+.carousel-image {
+	width: 280px;
+	height: 486px;
+}
+
+/*.owl-carousel .owl-item img {
+    display: block;
+    width: 300px; }*/
+
+/**/
+
+ .slide-wraper {
+	padding-top: 100px;
+ 	width: 1140px;
+ 	margin-left: -570px;
+ 	
+	position: absolute;
+	left: 50%;
+ }
+
+.carousel-image-container {
+	width: 250px;
+	height: 456px;
+}
+
+.owl-prev, .owl-next {
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+	left:300px;
+ }
+
+
+
+
