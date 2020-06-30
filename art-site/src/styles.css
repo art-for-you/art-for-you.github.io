@@ -1,0 +1,198 @@
+* {
+	box-sizing: border-box; /* чтобы не мешали внутренние отступы*/
+}
+
+#background-container1 {
+	background-image: url(img/background1.png);
+	height: 1080px;
+}
+
+#background-container1, #center-container, #main-image-container { 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#top-bar {
+	background-color:rgba(255, 255, 255, 0.6);
+	height: 100px;
+	margin: 0;
+	padding-top: 35px;
+	padding-bottom: 35px;
+
+
+}
+
+#icon-viber-container {
+	margin-left: 565px;
+	display: inline-block;
+}
+
+#icon-viber {
+	width: 30px;
+	height: 30px;
+	margin: 0;
+}
+
+#icon-phone-container {
+	margin-left: 19px;
+	padding: 0;
+	display: inline-block;
+
+}
+
+#icon-phone {
+	width: 30px;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+}
+
+#phone-container {
+	vertical-align: top;
+/*	padding: 5px;
+*/	margin-left: 19px;
+	display: inline-block;
+	/*position: relative;*/
+}
+
+#phone {
+	display: inline;
+	font-family: Segoe Print;
+	font-size: 24px;
+}
+
+#center-container {
+	background-color: #e3a1a8;
+	height: 450px;
+	margin-top: 210px;
+	margin-bottom: 314px;
+
+}
+
+#content-conteiner-main {
+	width: 1140px;
+	margin-left: -570px;
+	position: absolute;
+	left: 50%;
+}
+
+#main-image-container {
+	display: inline-block;
+	height: 450px;
+}
+
+#main-image {
+	height: 450px;
+}
+
+#main-header-container{
+
+	display: inline-block;
+	margin-left: 70px;
+	position: absolute;
+	margin-top: 40px;
+	width: 800px;
+}
+
+#main-header {
+	
+	font-family: Segoe Print;
+	font-size: 48px;
+	color: white;
+}
+
+#list-container {
+	display: inline-block;
+	margin-left: 70px;
+	position: absolute;
+	margin-bottom: 56px;
+	margin-top: 200px;
+	margin-left: 40px
+	height: 230px;
+}
+
+.list {
+	font-family: Segoe Script;
+	font-size: 33px;
+	color: white;
+
+}
+
+li {
+	list-style-type: none; /* Прячем исходные маркеры */
+}
+
+li:before {
+	color: white; /* Цвет маркера */
+	content: "\2022"; /* Сам маркер */
+	padding-right: 38px; /* Расстояние от маркера до текста */
+	font-size: 35px;
+	line-height: 1.8;
+
+}
+
+#background-container2 {
+	height: 1080px;
+}
+
+#examples-header-container {
+	padding-top: 250px;
+}
+
+#examples-header {
+	font-family: Segoe Print;
+	font-size: 48px;
+	color: black;
+	text-align: center;
+}
+
+.slide-wraper {
+	padding-top: 100px;
+ 	width: 1140px;
+ 	margin-left: -570px;
+	position: absolute;
+	left: 50%;
+ }
+
+.carousel-image-container {
+	width: 250px;
+	height: 456px;
+}
+
+.owl-carousel .owl-stage {
+/*	margin-top: 15px;
+*/}
+
+/*.carousel-image {
+	box-shadow:0px 1px 8px 4px rgba(49,28,45,0.45);
+-webkit-box-shadow:0px 1px 8px 4px rgba(49,28,45,0.45);
+-moz-box-shadow:0px 1px 8px 4px rgba(49,28,45,0.45);
+
+}*/
+
+.owl-prev {
+    position: absolute;
+    top: 40%;
+  /*  margin-top: 10px;*/
+	left:-20%;
+ }
+
+ .owl-next {
+    position: absolute;
+    top: 40%;
+  /*  margin-top: 10px;*/
+	right: -10%;
+ }
+
+.owl-carousel .owl-nav button.owl-next:hover {
+	background: none;
+    color: none;
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover {
+	background: none;
+    color: none;
+}
+
+&#x25C4
